@@ -1,7 +1,24 @@
 .container {
     width: min(80ch, 100vw - 2rem);
     margin-inline: auto;
-    
+    text-align: center;
+  }
+
+  body {
+    background-color: rgb(117, 16, 224);
+    font-family: 'Righteous', cursive;
+    color: whitesmoke;
+  }
+
+  img {
+    max-width: 80%;
+    height: 80%;
+    place-self: center;
+  }
+
+  span {
+    position: sticky;
+    top: 0;
   }
 
 .sidenav {
@@ -11,7 +28,7 @@
     z-index: 1;
     top: 0;
     left: 0;
-    background-color: #111;
+    background-color: rgb(150, 70, 236);
     overflow-x: hidden;
     transition: 0.5s;
     padding-top: 60px;
@@ -21,13 +38,13 @@
     padding: 8px 8px 8px 32px;
     text-decoration: none;
     font-size: 25px;
-    color: #818181;
+    color: whitesmoke;
     display: block;
     transition: 0.3s;
   }
   
   .sidenav a:hover {
-    color: #f1f1f1;
+    color: rgb(146, 146, 146);
   }
   
   .sidenav .closebtn {

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+    <title>Animated Sidenav</title>
+</head>
+
+<body>
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="sidenav.html">Hem</a>
+        <a href="Teamcomps.html">Teamcomps</a>
+        <a href="Augments.html">Augments</a>
+        <a href="Items.html">Items</a>
+    </div>
+
+    <span style="font-size:30px;cursor:pointer" onclick="openNav()"> &#9776; </span>
+
+    <main class="container">
+        <h1>Teamfight Tactics Teamcomps</h1>
+        <h2>Popular Teamcomps</h2>
+        <h3>Lasercorps och brawlers</h3>
+        <img src="/images/LasercorpsBrawlers.JPG" alt="LasercorpsBrawlersTeamcomp">
+        <h3>Renegades</h3>
+        <img src="/images/Renegades.JPG" alt="RenegadesTeamcomp">
+        <h3>InfiniTeam</h3>
+        <img src="/images/InfiniTeam.JPG" alt="InfiniTeam">
+        <footer>
+            <p>Bilder tagna ifrån https://tftactics.gg/tierlist/team-comps/</p>
+        </footer>
+    </main>
+
+    <script>
+        function openNav() {
+            document.getElementById("mySidenav").style.width = "250px";
+        }
+
+        function closeNav() {
+            document.getElementById("mySidenav").style.width = "0";
+        }
+    </script>
+
+
+</body>
+
+</html>
