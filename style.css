@@ -11,14 +11,14 @@
   }
 
   img {
-    max-width: 80%;
-    height: 80%;
+    max-width: 100%;
     place-self: center;
   }
 
   span {
     position: sticky;
-    top: 0;
+    top: 1;
+    
   }
 
 .sidenav {
