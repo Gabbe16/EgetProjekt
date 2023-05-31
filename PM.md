@@ -25,18 +25,4 @@ För att sammanfatta har jag lärt mig hur man gör en simpel animerad sidenav. 
 
 ## Publicering
 
-Hosta
-- Ej hostad än
-- Problem med hosting, error 404 (hade ingen index.html och hade /docs på pages)
-
-Validator.nu 
-- Html parse error, samma på alla fyra html sidor 
-(fixad genom att flytta script till en separat javascript fil och sedan länka till den filen)
-
-- Css fungerade utan problem i validator
-
-Bilder
-- Möjligtvis för stora?
-
-WAVE
-- Inga kontrast fel
+Sidan är hostad men jag hade ett problem innan med error 404 på grund av att jag inte hade någon index.html och had /docs istället för /root i pages på github. Jag har validerat både html och css, det enda som var problem är var html parse error på grund av att java script var i en script tagg istället för en separat fil. Förutom detta så fungerade css:en helt okej utan problem. Till sist har jag även använt WAVE på min hemsida för att kolla kontrast fel och det visade sig att min sida inte hade några kontrast fel.
