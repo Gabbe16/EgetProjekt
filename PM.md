@@ -4,7 +4,7 @@ Gabriel Nilsson Högberg, 2023-05-24.
 
 ## Inledning
 
-Arbetets syfte var att göra en sidebar navigation som var animerad eftersom jag inte har gjort en sådan förut och därefter göra en centrerad layout med innehåll till den. Genomförande var att lista ut hur man gjorde en "animerad" sidebar/sidenav och sedan försöka testa göra en på min egna hemsida. Efter det var det bara repetetion med att göra en centrerad layout som jag redan har gjort ett par gånger förut.
+Arbetets syfte var att göra en sidebar navigation som var animerad eftersom jag inte har gjort en sådan förut och därefter göra en centrerad layout med innehåll till den. Genomförande var att lista ut hur man gjorde en animerad sidebar/sidenav och sedan försöka testa göra en på min egna hemsida. Efter det var det bara repetetion med att göra en centrerad layout som jag redan har gjort ett par gånger förut.
 
 ## Bakgrund
 
@@ -25,4 +25,4 @@ För att sammanfatta har jag lärt mig hur man gör en simpel animerad sidenav. 
 
 ## Publicering
 
-Sidan är hostad men jag hade ett problem innan med error 404 på grund av att jag inte hade någon index.html och had /docs istället för /root i pages på github. Jag har validerat både html och css, det enda som var problem är var html parse error på grund av att java script var i en script tagg istället för en separat fil. Förutom detta så fungerade css:en helt okej utan problem. Till sist har jag även använt WAVE på min hemsida för att kolla kontrast fel och det visade sig att min sida inte hade några kontrast fel.
+Sidan är hostad men jag hade ett problem innan med error 404 på github eftersom att jag inte hade någon index.html och hade /docs istället för /root i pages på github. Jag har validerat både html och css, det enda som var problem är var html parse error på grund av att java script var i en script tagg istället för en separat fil. Förutom detta så fungerade css:en helt okej utan problem. Till sist har jag även använt WAVE på min hemsida för att kolla kontrast fel och det visade sig att min sida inte hade några kontrast fel.
