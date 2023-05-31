@@ -21,7 +21,7 @@ Det som har gått mindre bra var att lära sig att göra en sidebar/sidenav efte
 
 ## Sammanfattning
 
-För att sammanfatta har jag 
+För att sammanfatta har jag lärt mig hur man gör en simpel animerad sidenav. Som slutsats är jag nöjd med mitt slutprojekt eftersom jag fått lärdomar inom hur man gör sidenav och sidebar men också så fick jag repetition med centrerad layout. Det finns alltid utvecklingsmöjligheter inom hur jag har byggt min sidenav men 
 
 Här redovisar du dina slutsatser, erfarenheter och lärdomar. Reflektera över din produkt och dess/dina utvecklingsmöjligheter.
 Vad kan vidareutvecklas och finns det utrymme att bygga vidare på projektet.
@@ -29,7 +29,8 @@ Vad kan vidareutvecklas och finns det utrymme att bygga vidare på projektet.
 ## Publicering
 
 Hosta
-- Ej hostad än 
+- Ej hostad än
+- Problem med hosting, error 404 
 
 Validator.nu 
 - Html parse error, samma på alla fyra html sidor 
